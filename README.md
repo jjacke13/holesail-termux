@@ -6,7 +6,8 @@ Steps:
 1. On your Android device, intall the Termux app
 2. Download from this repo the file holesail.sh
 3. Put the file in the termux folder on your device
-4. Open termux and run: $ sh holesail.sh
+4. Open termux and run:
+   $ sh holesail.sh
 5. Be patient and read and follow the instructions when it asks you stuff.
 6. Enjoy!
 
