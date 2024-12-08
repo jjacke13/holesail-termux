@@ -1,5 +1,5 @@
 # holesail-termux
-A script to build and install Holesail in termux
+A script to build and install Holesail in termux. It is based on: https://github.com/holesail/holesail/issues/21#issuecomment-2455157536
 
 Steps:
 
