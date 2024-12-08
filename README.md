@@ -4,11 +4,9 @@ A script to build and install Holesail in termux. It is based on: https://github
 Steps:
 
 1. On your Android device, intall the Termux app
-2. Download from this repo the file holesail.sh
-3. Put the file in the termux folder on your device
-4. Open termux and run: " sh holesail.sh "
-5. Be patient and read and follow the instructions when it asks you stuff.
-6. Enjoy!
+2. Open termux and run: " sh < (curl -L https://raw.githubusercontent.com/jjacke13/holesail-termux/refs/heads/main/holesail.sh) "
+3. Be patient and read and follow the instructions when it asks you stuff.
+4. Enjoy!
 
 
 PS. 
