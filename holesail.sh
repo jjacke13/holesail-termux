@@ -1,8 +1,8 @@
 #!/bin/sh
-#pkg update 
-#apt upgrade -y
-#pkg install nodejs-lts -y
-#pkg install git -y
+pkg update 
+apt upgrade -y
+pkg install nodejs-lts -y
+pkg install git -y
 
 cat << EOF > ./.bashrc
 export PATH="/data/data/com.termux/files/home:$PATH"
