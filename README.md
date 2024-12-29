@@ -10,6 +10,4 @@ Steps:
 
 
 PS. 
-I have tested this script on Google Pixel 8a runnning Graphene OS (with Android 15) and Termux installed from F-droid. 
-If you have time, please try it on your device and report here :)
 Beware of rogue spaces and newlines :P
