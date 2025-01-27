@@ -10,7 +10,7 @@ rm ./holesail/package.json
 cat << EOF > ./holesail/package.json
 {
   "name": "holesail",
-  "version": "1.8.2",
+  "version": "1.10.0",
   "description": "Holesail is TCP/UDP peer-to-peer proxy. Holesail let's you instantly share any application running on a specific port from your local computer.",
   "main": "index.js",
   "scripts": {
