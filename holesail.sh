@@ -10,7 +10,7 @@ rm ./holesail/package.json
 cat << EOF > ./holesail/package.json
 {
   "name": "holesail",
-  "version": "1.10.0",
+  "version": "1.8.2",
   "description": "Holesail is TCP/UDP peer-to-peer proxy. Holesail let's you instantly share any application running on a specific port from your local computer.",
   "main": "index.js",
   "scripts": {
@@ -37,8 +37,8 @@ cat << EOF > ./holesail/package.json
     "cli-box": "^6.0.10",
     "colors": "^1.4.0",
     "graceful-goodbye": "^1.3.0",
-    "holesail-client": "^1.1.7",
-    "holesail-server": "^1.4.4",
+    "holesail-client": "^1.1.6",
+    "holesail-server": "^1.4.2",
     "hyper-cmd-lib-keys": "^0.1.1",
     "hyperdht": "^6.20.0",
     "minimist": "^1.2.8",
@@ -49,7 +49,8 @@ cat << EOF > ./holesail/package.json
     "sodium-native": "4.1.1"
   },
   "bin": {
-    "holesail": "./index.js"
+    "holesail": "./index.js",
+    "holesail-manager": "./manager.js"
   }
 }
 EOF
