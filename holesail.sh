@@ -4,7 +4,7 @@ apt upgrade -y
 pkg install nodejs-lts 
 pkg install git 
 pkg install python3 autoconf automake make binutils 
-git clone https://github.com/holesail/holesail.git 
+git clone --branch 1.10.0 --single-branch https://github.com/holesail/holesail.git 
 rm ./holesail/package-lock.json
 rm ./holesail/package.json
 cat << EOF > ./holesail/package.json
