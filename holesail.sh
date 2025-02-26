@@ -134,7 +134,7 @@ chmod +x hole
 
 # Echo a specific text
 echo "Now your holesail string is saved in the file 'hole'. When you want
- to connect, open termux, type "hole" and press enter. If you want to change your holesail string, type start and press enter."
+ to connect, open termux, type "./hole" and press enter. If you want to change your holesail string, type "./start" and press enter."
 EOF
 
 chmod +x start
